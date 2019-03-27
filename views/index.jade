@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 api test
+  p
+    Access token:
+    = accessToken
+  a(href='/auth') Authorize
+  br
+  a(href='/projects') Projects

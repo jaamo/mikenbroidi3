@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 projects
+  .project-list
+    each project in projects
+      .project-list__item
+        .project-list__item__cell=project.name
+        .project-list__item__cell
+          =Math.round(project.reportedHours / 60)
+          &nbsp;
+          | h
+        .project-list__item__cell
+          =Math.round(project.plannedEffort / 60)
+          &nbsp;
+          | h

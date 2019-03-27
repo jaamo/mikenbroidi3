@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.project-list {
+  width: 100%;
+}
+.project-list__item {
+  width: 100%;
+  display: flex;
+}
+
+.project-list__item__cell {
+  width: 33%;
+}
