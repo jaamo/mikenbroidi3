@@ -1,3 +1,5 @@
+# Planmill dashboard
+
 https://online.planmill.com/evermade/api/registrations.jsp
 
 Install dependencies:
